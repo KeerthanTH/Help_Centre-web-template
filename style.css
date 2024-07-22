@@ -1,0 +1,75 @@
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav .button{
+    position: absolute;
+    top: auto;
+    right: 37px;
+}
+header{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.signup{
+    background-color: rgb(66, 131, 235);
+    border: none;
+    border-radius: 5px;
+}
+.submit{
+    border: none;
+    border-radius: 5px;
+    border-color: white;
+}
+section{
+    width: auto;
+    height: 500px;
+    background-color: plum;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px 200px 200px;
+    text-align: center;
+}
+span div{
+    background-color: whitesmoke;
+    padding: 39px 190px;
+}
+span>caption{
+    justify-content: center;
+}
+span a:hover{
+    background-color: aqua;
+}
+span a{
+    display: block;
+    margin: auto;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    color:white;
+    padding: 50px;
+    border-radius: 10px;
+}
+footer li{
+    list-style-type: none;
+}
+footer .grid-5{
+    align-self: self-end;
+    justify-self: end;
+}
